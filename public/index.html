@@ -5,77 +5,134 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-bg text-secondary-light font-body">
-    <!-- content wrapper -->
-    <div>
-        <div class="">
-            <nav class="p-4 m-4 border-b border-secondary-light flex">
-                <div class="flex-auto">
-                    <h1 class="text-accent uppercase text-4xl">
-                        <a href="/">S<span class="text-3xl">hahpar</span> K<span class="text-3xl">han</span></a>
-                    </h1>
-                </div>
-                <div>
-                    <ul class="text-primary text-2xl text-right flex space-x-4">
-                        <li>
-                            <a href="#">
-                                <span>
-                                    Home
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                    Projects
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                    Contact
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                
-            </nav>
-        </div><!-- end nav -->
-        
-        <main class="px-16 py-8">
-            <header>
-                <h2>Hi!</h2>
-                <h3>Welcome to my webpage</h3>
-            </header>
-
-            <div><!-- intro para-->
-                <h4>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</h4>
+<body class="bg-gradient-to-r from-gradient-left to-gradient-right font-body">
+    <div class="sticky top-0">
+        <nav class="p-4 bg-white/10 shadow-lg shadow-blue-900 sticky border-b border-primary border-secondary-light flex justify-between">
+            <div class="">
+                <h1 class="text-accent uppercase text-4xl">
+                    <a href="/">S<span class="text-3xl">hahpar</span> K<span class="text-3xl">han</span></a>
+                </h1>
             </div>
+            <div>
+                <ul class="text-primary text-2xl flex space-x-4">
+                    <li>
+                        <a href="#">
+                            <span>
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Projects
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>
+                                Contact
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+    </div><!-- end nav -->
+    
+    <div class="snap-y snap-mandatory w-dvh h-dvh overflow-scroll"><!-- landing -->
 
-            <div><!-- spotlight projects -->
-                <h3 class="text-primary text-xl mt-8 pb-2 border-b border-secondary-light">Spotlight Projects</h3>
+        <div class="p-32 snap-start w-dvh h-dvh">
+            <header class="">
+                <div class="flex space-x-4 items-center">
+                    <h2 class="text-6xl text-secondary-dark">Hi!</h2>
+                    <img src="img/hand.png" alt="" class="size-28 animate-wiggle">
+                </div>
+                <h3 class="text-3xl text-secondary-dark mt-4">Welcome to my webpage</h3>
+                <h4 class="mt-4 text-secondary-light text-xl">lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </h4>
+            </header>
+        </div>
 
-                <div class="mt-8"> <!-- card -->
+
+
+        <div class="p-32 snap-start w-dvh h-dvh"><!-- spotlight projects -->
+            <h3 class="text-primary text-3xl pb-2 border-b border-secondary-light">Spotlight Projects</h3>
+
+            <div class="flex justify-around flex-wrap">
+                <div class="mt-8 bg-white/5 rounded-xl overflow-hidden shadow-2xl shadow-blue-950 flex flex-col items-center"> <!-- card -->
                     <img src="img/docker.png" alt="" class="size-40">
                     <div class="text-secondary-dark text-lg">
                         <span>Project title</span>
                         <span>Domain</span>
                     </div>
 
-                    <div class="text-slate-600">
-                        <span>Content</span>
+                    <div class="">
+                        <span class="text-secondary-light">Content</span>
                     </div>
                 </div>
 
-                <div>
-                    <div>
-                        Load more
+                <div class="mt-8 bg-white/5 rounded-xl overflow-hidden shadow-2xl shadow-blue-950 flex flex-col items-center"> <!-- card -->
+                    <img src="img/docker.png" alt="" class="size-40">
+                    <div class="text-secondary-dark text-lg">
+                        <span>Project title</span>
+                        <span>Domain</span>
+                    </div>
+
+                    <div class="">
+                        <span class="text-secondary-light">Content</span>
                     </div>
                 </div>
+
+                <div class="mt-8 bg-white/5 rounded-xl overflow-hidden shadow-2xl shadow-blue-950 flex flex-col items-center"> <!-- card -->
+                    <img src="img/docker.png" alt="" class="size-40">
+                    <div class="text-secondary-dark text-lg">
+                        <span>Project title</span>
+                        <span>Domain</span>
+                    </div>
+
+                    <div class="">
+                        <span class="text-secondary-light">Content</span>
+                    </div>
+                </div>
+
+                <div class="mt-8 bg-white/5 rounded-xl overflow-hidden shadow-2xl shadow-blue-950 flex flex-col items-center"> <!-- card -->
+                    <img src="img/docker.png" alt="" class="size-40">
+                    <div class="text-secondary-dark text-lg">
+                        <span>Project title</span>
+                        <span>Domain</span>
+                    </div>
+
+                    <div class="">
+                        <span class="text-secondary-light">Content</span>
+                    </div>
+                </div>
+                <div class="mt-8 bg-white/5 rounded-xl overflow-hidden shadow-2xl shadow-blue-950 flex flex-col items-center"> <!-- card -->
+                    <img src="img/docker.png" alt="" class="size-40">
+                    <div class="text-secondary-dark text-lg">
+                        <span>Project title</span>
+                        <span>Domain</span>
+                    </div>
+
+                    <div class="">
+                        <span class="text-secondary-light">Content</span>
+                    </div>
+                </div>
+
+                
             </div>
-        </main>
+
+            <div class="mt-16 flex justify-center">
+                <span class="text-lg text-secondary-dark">View all</span>
+            </div>
+
+            
+        </div>
+        
+        
+        
+        <!-- <main class="p-8 mt-20"></main> -->
     </div>
 </body>
 </html>
